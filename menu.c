@@ -159,6 +159,7 @@ void binTreeLobby(BinTree T) {
                 break;
                 
             case 0:
+                free(T);
                 printf("Keluar dari program.\n");
                 break;
                 

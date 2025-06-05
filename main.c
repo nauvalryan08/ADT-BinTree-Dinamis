@@ -8,4 +8,6 @@ int main() {
     createMorseTree(&morseTree);
 
     binTreeLobby(morseTree);
+
+    return 0;
 }
